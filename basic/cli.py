@@ -113,7 +113,7 @@ flags.DEFINE_bool("c2q_att", True, "context-to-question attention? [True]")
 flags.DEFINE_bool("dynamic_att", False, "Dynamic attention [False]")
 
 # Custom flags
-flags.DEFINE_integer("emb_mat", 0, "embedding matrix")
+flags.DEFINE_integer("new_emb_mat", 0, "embedding matrix")
 
 def main(_):
     config = flags.FLAGS
